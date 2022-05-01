@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+/*INICIO DEL HEADER TITULO DE LA PAGINA */
+
+header{
+    width: 100%;
+        
+}
+    
+.titulo{
+    float: left;
+    color: blue;
+    padding: 20px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.menu{
+    float: right;
+    margin-top: 60px;
+    
+}
+
+.menu li{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    color: blue;
+    padding: 15px;
+    transition: 1s all ease;
+}
+
+.menu li a:hover{
+    font-size: 20px;
+}
+
+/*INICIO DEL CONTENIDO DE LA PAGINA */
+
+section div{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;    
+}
+
+section div h2{
+    height: 80px;
+    line-height: 80px;
+    background: linear-gradient(rgb(56, 56, 255),rgb(23, 26, 180));
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+section div p{
+    background: white;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+
+section div img{
+    width: 600px;
+    margin-bottom: 20px;
+    
+}
+
+.atractivos{
+    float: left;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.irmenu{
+    text-align: center;
+    font-size: 15px;
+    color: cornflowerblue;
+}
+
+iframe{
+    margin-bottom: 20px;
+}
+
+
+/*INICIO DEL PIE DE PAGINA */
+
+footer{
+    background: rgb(86, 125, 154);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+}
+      
+@media screen and (max-width:767px) {
+    .titulo{
+        float: none;
+        display: block;
+        color: blue;
+        padding: 0px;
+        padding-top: 50px;
+        text-align: center;
+    }
+    
+    .menu{
+
+        float: none;
+        clear: both;
+        width: 100%;
+
+        text-align: center;
+        margin-top: 40px;
+        
+    }
+    
+    .menu li{
+        list-style: none;
+        text-decoration: none;
+        display: inline;
+    
+    }
+    
+    .menu li a{
+        text-decoration: none;
+        color: blue;
+        padding: 15px;
+        transition: 1s all ease;
+    }
+    
+    .menu li a:hover{
+        font-size: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width:624px) {
+    section div img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width:481px) {
+    .menu li a {
+       font-size: 13px;
+    }
+    
+}
+
+@media screen and (max-width:424px) {
+    .menu li {
+        width: 100%;
+       
+    }
+    .menu ul li{
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width:414px) {
+    .menu li a{
+        display: block;
+        padding: 2px;
+        margin: 15px;
+
+       
+       
+    }
+    
+}
+
